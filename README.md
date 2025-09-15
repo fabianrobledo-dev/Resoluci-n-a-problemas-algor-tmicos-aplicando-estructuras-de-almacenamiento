@@ -1,3 +1,6 @@
+<img width="782" height="752" alt="image" src="https://github.com/user-attachments/assets/791f6e39-e299-4d5e-b5f7-495675eb1647" />
+
+
 # Sistema de Gestión de Usuarios
 
 ![PHP](https://img.shields.io/badge/PHP-7.4-blue)
@@ -105,4 +108,5 @@ Castaño Luis Enrique Abello
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 ![alt text](image-3.png)
+
 ![alt text](image-4.png)
