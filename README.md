@@ -1,4 +1,17 @@
+<img width="621" height="621" alt="image" src="https://github.com/user-attachments/assets/7197a40e-55de-4a0d-a673-4279029c16b6" />
+
 <img width="782" height="752" alt="image" src="https://github.com/user-attachments/assets/791f6e39-e299-4d5e-b5f7-495675eb1647" />
+
+<img width="1919" height="570" alt="image" src="https://github.com/user-attachments/assets/e23983cb-be30-4c81-9d95-d78220de25a8" />
+
+<img width="574" height="551" alt="image" src="https://github.com/user-attachments/assets/bd510a0a-fdee-4cdb-96fe-a4a6fd124e26" />
+
+<img width="622" height="437" alt="image" src="https://github.com/user-attachments/assets/b93e28c2-cf29-412e-898e-7126bbe6cec8" />
+
+<img width="709" height="724" alt="image" src="https://github.com/user-attachments/assets/5256ec24-2ad0-4a81-bce4-91444c727c2c" />
+
+<img width="976" height="614" alt="image" src="https://github.com/user-attachments/assets/91a6455c-c97c-4d3b-9a55-97575cd1eb31" />
+
 
 
 # Sistema de Gestión de Usuarios
@@ -110,3 +123,4 @@ Castaño Luis Enrique Abello
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
