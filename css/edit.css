@@ -1,0 +1,147 @@
+/* ======== Reset ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ======== General ======== */
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* ======== Header ======== */
+header {
+    width: 100%;
+    background: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-logout {
+    background: #ff4b5c;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    background: #ff1c33;
+}
+
+/* ======== Main ======== */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* ======== Card ======== */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    color: #003366;
+    font-size: 24px;
+}
+
+/* ======== Form ======== */
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: border 0.3s;
+}
+
+form input:focus,
+form select:focus {
+    border: 1px solid #4facfe;
+    box-shadow: 0px 0px 6px rgba(79, 172, 254, 0.5);
+}
+
+/* ======== Buttons ======== */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-guardar {
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-guardar:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.btn-volver {
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-volver:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ======== Animación ======== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6dd5fa, #2980b9, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.logo img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.card label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #34495e;
+}
+
+.card input, .card select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-guardar {
+    background: #27ae60;
+    margin-right: 10px;
+}
+
+.btn-guardar:hover {
+    background: #219150;
+}
+
+.btn-volver {
+    background: #2980b9;
+}
+
+.btn-volver:hover {
+    background: #1f6690;
+}
